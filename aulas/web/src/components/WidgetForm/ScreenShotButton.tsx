@@ -5,7 +5,7 @@ import { Loading } from "../Loading";
 
 interface ScreenShotButtonProps {
   screenshot: string | null
-  onScreenShotTook: (screenShot: string | null) => void
+  onScreenShotTook: (screenshot: string | null) => void
 }
 
 export function ScreenShotButton({
